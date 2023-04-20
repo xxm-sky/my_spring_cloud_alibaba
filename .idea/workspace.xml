@@ -1,46 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efc12ea9-be06-4810-9046-6814a1a1e5cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/bean/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/bean/TokenInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/bean/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/JackSonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/LoginInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/MyBatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/SendSmsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/ThreadConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/consts/BaseConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/enums/ERegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/error/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/error/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/interceptor/FeignRequestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/interceptor/JwtInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/alipay/AliOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/PlaceOrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/PlaceOrderReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/WechatCallBackDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/WechatResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/BeanConvertUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/CardNumUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/EncryptionPwdUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/JWTUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/PageHelperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/SpringContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/WechatPayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/vaildate/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/vaildate/Update.java" afterDir="false" />
+    <list default="true" id="efc12ea9-be06-4810-9046-6814a1a1e5cc" name="Default Changelist" comment="add common use">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/xxm/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/xxm/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/xxm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-user/src/main/resources/config/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-user/src/main/resources/config/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-user/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/AccessTokenDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/AccessTokenDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/BaseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/BaseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/req/QueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/req/QueryReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/alipay/AliOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/PlaceOrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/PlaceOrderReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/WechatCallBackDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/WechatResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/WechatPayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/xxm/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/xxm/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/xxm/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/xxm/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-user/src/main/resources/config/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -84,7 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-user/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,17 +77,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\localwork\cloud_alibaba\cloud-user\src\main\resources\config" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xxm.consts" />
       <recent name="com.xxm.filter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\localwork\cloud_alibaba\cloud-user\src\main\resources" />
+      <recent name="D:\workspace\localwork\cloud_alibaba\cloud-user\src\main\resources\mapper" />
       <recent name="D:\workspace\localwork\cloud_alibaba\cloud-common\src\main\java\com\xxm" />
       <recent name="D:\workspace\localwork\cloud_alibaba\cloud-gateway\src\main\resources" />
       <recent name="D:\workspace\localwork\cloud_alibaba\cloud-user\src\main\java\com\xxm" />
-      <recent name="D:\workspace\localwork\cloud_alibaba\cloud-manager\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.UserApplication">
@@ -171,7 +159,8 @@
       <option name="presentableId" value="Default" />
       <updated>1681877973651</updated>
       <workItem from="1681877976268" duration="18160000" />
-      <workItem from="1681962969500" duration="2614000" />
+      <workItem from="1681962969500" duration="3513000" />
+      <workItem from="1681966599878" duration="5040000" />
     </task>
     <task id="LOCAL-00001" summary="add new module common">
       <created>1681964035331</created>
@@ -180,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681964035331</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add common use">
+      <created>1681965766749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681965766749</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,73 +184,74 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new module common" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new module common" />
+    <MESSAGE value="add common use" />
+    <option name="LAST_COMMIT_MESSAGE" value="add common use" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1681881432578">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1681966391862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1681881432578" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1681883447761">
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1681966391862" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1681970051131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1681883447761" />
-    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1681964034662">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1681970051131" />
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1681969616145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1681964034662" />
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1681969616145" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1681895853676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1681895853676" />
-    <state width="1877" height="405" key="GridCell.Tab.0.bottom" timestamp="1681898446851">
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446851" />
-    <state width="1877" height="405" key="GridCell.Tab.0.center" timestamp="1681898446851">
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.0.center" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446851" />
-    <state width="1877" height="405" key="GridCell.Tab.0.left" timestamp="1681898446851">
+    <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.0.left" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446851" />
-    <state width="1877" height="405" key="GridCell.Tab.0.right" timestamp="1681898446851">
+    <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.0.right" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446851" />
-    <state width="1877" height="356" key="GridCell.Tab.1.bottom" timestamp="1681898446848">
+    <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.1.bottom" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446848" />
-    <state width="1877" height="356" key="GridCell.Tab.1.center" timestamp="1681898446848">
+    <state width="1877" height="394" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.1.center" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446848" />
-    <state width="1877" height="356" key="GridCell.Tab.1.left" timestamp="1681898446848">
+    <state width="1877" height="394" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.1.left" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446848" />
-    <state width="1877" height="356" key="GridCell.Tab.1.right" timestamp="1681898446848">
+    <state width="1877" height="394" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.1.right" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446848" />
-    <state width="1877" height="356" key="GridCell.Tab.2.bottom" timestamp="1681898446848">
+    <state width="1877" height="394" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.2.bottom" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446848" />
-    <state width="1877" height="356" key="GridCell.Tab.2.center" timestamp="1681898446848">
+    <state width="1877" height="394" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.2.center" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446848" />
-    <state width="1877" height="356" key="GridCell.Tab.2.left" timestamp="1681898446848">
+    <state width="1877" height="394" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.2.left" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446848" />
-    <state width="1877" height="356" key="GridCell.Tab.2.right" timestamp="1681898446848">
+    <state width="1877" height="394" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
+    <state width="1877" height="394" key="GridCell.Tab.2.right" timestamp="1681971850028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1681898446848" />
+    <state width="1877" height="394" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1681971850028" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1681893715143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -263,14 +260,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1681964854668" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1681966576936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1681966576936" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1681964037236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1681964037236" />
-    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1681965653102">
+    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1681970655523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1681965653102" />
+    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1681970655523" />
     <state x="625" y="311" key="git4idea.merge.GitPullDialog" timestamp="1681897485904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
