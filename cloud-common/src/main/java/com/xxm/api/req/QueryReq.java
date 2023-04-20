@@ -3,10 +3,7 @@ package com.xxm.api.req;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-/**
- * @author YouMing LIN
- * @date 2022-06-18 17:52
- **/
+
 @Data
 public class QueryReq {
 

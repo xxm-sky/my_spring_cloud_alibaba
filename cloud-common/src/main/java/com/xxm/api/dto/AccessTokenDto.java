@@ -5,10 +5,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Builder;
 import lombok.Data;
 
-/**
- * @author YouMing LIN
- * @date 2022-06-18 17:38
- **/
+
 @Data
 @Builder
 @ApiModel("获取token出参")

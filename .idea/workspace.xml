@@ -2,16 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efc12ea9-be06-4810-9046-6814a1a1e5cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/annotation/PassToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/aop/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/AccessTokenDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/BaseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/req/QueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/bean/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/bean/TokenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/bean/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/JackSonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/LoginInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/SendSmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/ThreadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/consts/BaseConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/enums/ERegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/error/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/error/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/interceptor/FeignRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/alipay/AliOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/PlaceOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/PlaceOrderReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/WechatCallBackDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/pay/wechat/WechatResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/BeanConvertUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/CardNumUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/EncryptionPwdUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/JWTUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/PageHelperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/utils/WechatPayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/vaildate/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/vaildate/Update.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/AccessTokenDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/AccessTokenDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/BaseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/dto/BaseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/req/QueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/xxm/api/req/QueryReq.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +97,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xxm.consts" />
       <recent name="com.xxm.filter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\localwork\cloud_alibaba\cloud-common\src\main\java\com\xxm" />
       <recent name="D:\workspace\localwork\cloud_alibaba\cloud-gateway\src\main\resources" />
       <recent name="D:\workspace\localwork\cloud_alibaba\cloud-user\src\main\java\com\xxm" />
       <recent name="D:\workspace\localwork\cloud_alibaba\cloud-manager\src\main\resources" />
@@ -140,12 +171,24 @@
       <option name="presentableId" value="Default" />
       <updated>1681877973651</updated>
       <workItem from="1681877976268" duration="18160000" />
-      <workItem from="1681962969500" duration="961000" />
+      <workItem from="1681962969500" duration="2614000" />
     </task>
+    <task id="LOCAL-00001" summary="add new module common">
+      <created>1681964035331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681964035331</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new module common" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new module common" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1681881432578">
@@ -156,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1681883447761" />
-    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1681895855311">
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1681964034662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1681895855311" />
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1681964034662" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1681895853676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -216,14 +259,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1681893715143" />
-    <state x="669" y="230" key="RollbackChangesDialog" timestamp="1681963856710">
+    <state x="669" y="230" key="RollbackChangesDialog" timestamp="1681964854668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1681963856710" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1681897343892">
+    <state x="669" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1681964854668" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1681964037236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1681897343892" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1681964037236" />
+    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1681965653102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1681965653102" />
     <state x="625" y="311" key="git4idea.merge.GitPullDialog" timestamp="1681897485904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
